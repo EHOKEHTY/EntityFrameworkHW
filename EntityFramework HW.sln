@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework HW", "EntityFramework HW\EntityFramework HW.csproj", "{836BEDA5-5E1F-4C38-82B8-9EB040052867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{836BEDA5-5E1F-4C38-82B8-9EB040052867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836BEDA5-5E1F-4C38-82B8-9EB040052867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836BEDA5-5E1F-4C38-82B8-9EB040052867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836BEDA5-5E1F-4C38-82B8-9EB040052867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {028E0903-6613-439A-B88C-C8DB6E90547D}
+	EndGlobalSection
+EndGlobal
