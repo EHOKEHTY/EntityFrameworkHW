@@ -77,21 +77,21 @@ public class LibreryMiniApp
             string temp2 = "  Пароль: ";
             Console.WriteLine(temp1);
             Console.WriteLine(temp2);
-            //Console.SetCursorPosition(temp1.Length, 1);
-            //librarian.Login = Console.ReadLine();
-            //if (librarian.Login == "1")
-            //{
-            //    Console.Clear();
-            //    return false;
-            //}
-            //Console.SetCursorPosition(temp2.Length, 2);
-            //librarian.Password = Console.ReadLine();
+            Console.SetCursorPosition(temp1.Length, 1);
+            librarian.Login = Console.ReadLine();
+            if (librarian.Login == "1")
+            {
+                Console.Clear();
+                return false;
+            }
+            Console.SetCursorPosition(temp2.Length, 2);
+            librarian.Password = Console.ReadLine();
 
             if (LibrerianExistCheck(librarian))
             {
                 Console.Clear();
                 Console.WriteLine("Доступ успешно получен.");
-                //Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.Clear();
                 return true;
             }
@@ -99,7 +99,7 @@ public class LibreryMiniApp
             {
                 Console.Clear();
                 Console.WriteLine("Неверно введены данные или пользователь не существует.");
-                //Thread.Sleep(1000);
+                Thread.Sleep(1000);
                 Console.Clear();
             }
             Console.Clear();
@@ -144,7 +144,7 @@ public class LibreryMiniApp
             {
                 Console.Clear();
                 Console.WriteLine("Такой библиотекарь уже существует");
-                //Thread.Sleep(1000);
+                Thread.Sleep(1000);
             }
             else
             {
@@ -168,7 +168,7 @@ public class LibreryMiniApp
                     }
                     Console.Clear();
                     Console.WriteLine("Аккаунт успешно создан. Можете авторизоваться.");
-                    //Thread.Sleep(1000);
+                    Thread.Sleep(1000);
                     Console.Clear();
                 }
                 break;
@@ -255,7 +255,7 @@ public class LibreryMiniApp
             {
                 Console.Clear();
                 Console.WriteLine("Такой пользователь уже существует");
-                //Thread.Sleep(1000);
+                Thread.Sleep(1000);
             }
             else
             {
@@ -279,7 +279,7 @@ public class LibreryMiniApp
                     }
                     Console.Clear();
                     Console.WriteLine("Аккаунт успешно создан. Можете авторизоваться.");
-                    //Thread.Sleep(1000);
+                    Thread.Sleep(1000);
                     Console.Clear();
                 }
                 break;
