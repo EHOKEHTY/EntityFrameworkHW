@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHW", "EntityFrameworkHW\EntityFrameworkHW.csproj", "{CEB506F7-0DBF-4000-8D16-138BC5E346B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextLibrery", "ContextLibrery\ContextLibrery.csproj", "{587B0666-FA57-4E53-93E1-811D3097244B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587B0666-FA57-4E53-93E1-811D3097244B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587B0666-FA57-4E53-93E1-811D3097244B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587B0666-FA57-4E53-93E1-811D3097244B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587B0666-FA57-4E53-93E1-811D3097244B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE6B517E-7096-4B1F-96DA-D88A0173F748}
+	EndGlobalSection
+EndGlobal
