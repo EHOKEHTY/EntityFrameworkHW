@@ -11,9 +11,9 @@ public partial class Author
 
     public string LastName { get; set; } = null!;
 
-    public string? MiddleName { get; set; }
+    public string MiddleName { get; set; } = null!;
 
     public DateTime? DateOfBirth { get; set; }
 
-    public virtual ICollection<Book> Books { get; set; } = new List<Book>();
+    public virtual ICollection<BookAuthor> BookAuthors { get; set; } = new List<BookAuthor>();
 }
