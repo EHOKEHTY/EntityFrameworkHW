@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContextLibrery\ContextLibrery.csproj" />
+    <ProjectReference Include="..\LibreriContext\ContextLibrery.csproj" />
   </ItemGroup>
 
 </Project>

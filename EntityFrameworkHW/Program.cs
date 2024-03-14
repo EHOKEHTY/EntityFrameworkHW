@@ -7,11 +7,9 @@ namespace EntityFrameworkHW
         static void Main(string[] args)
         {
             LibreryContext lib = new LibreryContext();
-            
-            LibreryMiniApp App = new LibreryMiniApp(lib);
 
-            App.Start();
-
+            MiniApp App = new MiniApp(lib);
+            App.StartApp();
         }
     }
 

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33927.289
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkHW", "EntityFrameworkHW\EntityFrameworkHW.csproj", "{CEB506F7-0DBF-4000-8D16-138BC5E346B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkHW", "EntityFrameworkHW\EntityFrameworkHW.csproj", "{CEB506F7-0DBF-4000-8D16-138BC5E346B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextLibrery", "ContextLibrery\ContextLibrery.csproj", "{587B0666-FA57-4E53-93E1-811D3097244B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextLibrery", "LibreriContext\ContextLibrery.csproj", "{37703CEE-951C-46FC-8FB8-945FE5A337B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB506F7-0DBF-4000-8D16-138BC5E346B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{587B0666-FA57-4E53-93E1-811D3097244B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{587B0666-FA57-4E53-93E1-811D3097244B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{587B0666-FA57-4E53-93E1-811D3097244B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{587B0666-FA57-4E53-93E1-811D3097244B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37703CEE-951C-46FC-8FB8-945FE5A337B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37703CEE-951C-46FC-8FB8-945FE5A337B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37703CEE-951C-46FC-8FB8-945FE5A337B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37703CEE-951C-46FC-8FB8-945FE5A337B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
